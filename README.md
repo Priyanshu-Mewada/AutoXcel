@@ -1,32 +1,32 @@
-AutoXcel
+# AutoXcel
 
 AutoXcel is a powerful web application built with Next.js, React, Tailwind CSS, Clerk, MongoDB, and the Gemini API. It allows users to upload and parse Excel files, interact using natural language, and perform smart data filtering, sorting, and dynamic extraction with secure authentication.
 
-Features
+# Features
 
-Upload and Parse Excel Files: Easily upload Excel files and extract structured data.
+- Upload and Parse Excel Files: Easily upload Excel files and extract structured data.
 
-Natural Language Interaction: Communicate with AutoXcel using natural language for data insights.
+- Natural Language Interaction: Communicate with AutoXcel using natural language for data insights.
 
-Smart Data Filtering and Sorting: Quickly filter and sort data dynamically based on queries.
+- Smart Data Filtering and Sorting: Quickly filter and sort data dynamically based on queries.
 
-Dynamic Extraction: Extract specific information intelligently from uploaded Excel files.
+- Dynamic Extraction: Extract specific information intelligently from uploaded Excel files.
 
-Clerk Authentication & Secure Storage: Secure user authentication with Clerk and data storage using MongoDB.
+- Clerk Authentication & Secure Storage: Secure user authentication with Clerk and data storage using MongoDB.
 
-Technologies Used
+# Technologies Used
 
-Frontend: Next.js, React.js, Tailwind CSS
+*Frontend*: Next.js, React.js, Tailwind CSS
 
-Backend: Node.js
+*Backend*: Node.js
 
-Database: MongoDB
+*Database*: MongoDB
 
-Authentication: Clerk
+*Authentication*: Clerk
 
-APIs: Gemini API
+*APIs*: Gemini API
 
-Getting Started
+# Getting Started
 
 Follow these steps to set up and run AutoXcel on your local machine.
 
@@ -34,13 +34,13 @@ Prerequisites
 
 Make sure you have the following installed on your system:
 
-Node.js (v14 or later)
+Node.js 
 
 npm or yarn
 
 MongoDB (local or cloud instance)
 
-Setup Instructions
+# Setup Instructions
 
 Clone the Repository:
 
@@ -50,10 +50,10 @@ cd AutoXcel
 Install Dependencies:
 
 npm install
-# or
+or
 yarn install
 
-Configure Environment Variables:
+# Configure Environment Variables:
 Create a .env.local file in the root directory and add the following:
 
 DATABASE_URL="your_mongodb_connection_string"
@@ -62,20 +62,20 @@ CLERK_SECRET_KEY="your_clerk_secret_key"
 GOOGLE_GENERATIVE_AI_API_KEY="your_google_api_key"
 GEMINI_API_URL="your_gemini_api_url"
 
-Run the Development Server:
+# Run the Development Server:
 
 npm run dev
-# or
+or
 yarn dev
 
 The app will be available at http://localhost:3000.
 
-Build for Production:
+# Build for Production:
 
 npm run build
 npm start
 
-Dependencies
+# Dependencies
 
 The project relies on the following dependencies:
 
