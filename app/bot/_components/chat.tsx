@@ -125,9 +125,12 @@ console.log("message " , messages)
       <div className="flex h-full bg-white">
         <div className="flex rounded-lg flex-col items-center shadow-lg justify-center p-6 relative w-full">
           {/* If no messages, show a welcome screen */}
+
           {messages.length === 0 && (
-            <div className="flex flex-col items-center justify-center flex-1">
             
+            <div className="flex flex-col flex-1 w-full">
+          <div className="border-b font-semibold text-2xl text-[#53108dc0] w-full ">AutoXcel</div>
+             <div className="flex flex-col items-center justify-center h-full">
               <h1 className="text-2xl font-bold text-gray-800 text-center">
                 Welcome to Execel Automation
               </h1>
@@ -144,12 +147,14 @@ console.log("message " , messages)
                   </button>
                 ))}
               </div> */}
+              </div>
             </div>
           )}
 
           {/* Chat messages */}
           {messages.length > 0 && (
             <div className="w-full h-[88%] p-4 absolute top-0 justify-start flex flex-col">
+              <div className="border-b font-semibold text-2xl text-[#53108dc0] w-full mt-2 ">AutoXcel</div>
               <div className="overflow-y-auto flex-grow">
                 {messages.map((message) => (
                   <div key={message.id}>
